@@ -1,0 +1,20 @@
+# O que é GIT
+Versionamento de código
+# Criar um diretório
+mkdir git-flow
+# Entrar no diretório
+cd git-flow
+# Inicializar o diretório
+git init
+# Criar meu primeiro arquivo
+touch primeiro-arquivo.txt
+# mensagem dentro do arquivo
+echo "meu primeiro hello-world"
+# Adicione o arquivo para ser monitorado
+git add primeiro-arquivo.txt
+# Commit
+git commit -m "meu primeiro hello-world"
+# Empurrar para meu repositorio
+git push primeiro-arquivo.txt
+# Baixar o arquivo
+git pull primeiro-arquivo.txt
